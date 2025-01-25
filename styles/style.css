@@ -249,7 +249,7 @@ span {
 .btn {
 	display: inline-block;
 	padding: 1rem 2.8rem;
-	background-color: black;
+	background-color: white;
 	border-radius: 4rem;
 	font-size: 1.6rem;
 	color: #b74b4b;
@@ -265,6 +265,51 @@ span {
 	color: black;
 	box-shadow: 0 0 25px #b74b4b;
 }
+.btn-2 {
+    margin-left: 10px;
+}
+
+/* Phone Number Tooltip */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 170px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 69%;
+    left: 50%;
+    margin-left: -85px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    scale: 0.5;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #9b9999 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
 .typing-text {
 	font-size: 34px;
 	font-weight: 600;

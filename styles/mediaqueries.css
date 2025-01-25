@@ -43,6 +43,10 @@
   .about-containers {
     margin-top: 0;
   }
+  .btn-2{
+    margin-top: 10px;
+    width: 203px;
+  }
 }
 
 @media screen and (max-width: 600px) {
