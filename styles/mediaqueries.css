@@ -181,4 +181,17 @@
   .laa-details {
     margin: 0 1rem;
   }
+  .contact-info-upper-container {
+    width: 70vw;
+    height: 6vh;
+    padding: 0!important;
+  }
+  .contact-info-container p{
+    font-size: 0.7rem!important;
+  }
+  .social-icons.contact a{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
 }
