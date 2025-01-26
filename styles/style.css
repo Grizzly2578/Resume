@@ -363,15 +363,14 @@ span {
 }
 
 .details-container {
-	padding: 1.5rem;
-	flex: 1;
-	background: white;
-	border-radius: 2rem;
-	border: rgb(53, 53, 53) 0.1rem solid;
-	border-color: rgb(163, 163, 163);
-	text-align: center;
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
 }
-
 #experience {
 	position: relative;
 	box-sizing: border-box;
