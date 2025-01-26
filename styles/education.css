@@ -1,0 +1,32 @@
+.education-details-container {
+    display: block;
+    margin: 0 20rem;
+    column-gap: 2rem;
+}
+.education-laa-content {
+    padding-left: 2rem;
+}
+.education-laa-content p {
+    text-indent: 50px;
+}
+.education-elementary-school {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+.education-high-school {
+    display: flex;
+    align-items: flex-start;
+}
+.smes-image {
+    width: 69vw;
+    height: 35vh;
+    border-radius: 50px 10px 50px 10px;
+    margin-right: 20px;
+}
+.laa-image {
+    width: 40vw;
+    height: 35vh;
+    border-radius: 50px 10px 50px 10px;
+    margin-right: 20px;
+}
