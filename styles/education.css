@@ -5,9 +5,11 @@
 }
 .education-laa-content {
     padding-left: 2rem;
+    margin-right: 2rem;
 }
 .education-laa-content p {
     text-indent: 50px;
+
 }
 .education-elementary-school {
     display: flex;
