@@ -1,16 +1,8 @@
 @media screen and (max-width: 2560px) {
-  .smes-image{
-    width: 69vw;
-  }
+}
+@media screen and (max-width: 1494px) {
 }
 @media screen and (min-width: 1440px) {
-  .smes-image
-  .laa-image {
-    width: 83vw;
-    height: 35vh;
-    border-radius: 50px 10px 50px 10px;
-    margin-right: 20px;
-  }
   #experience {
     margin: 0 10rem;
   }
@@ -30,13 +22,7 @@
   .btn-2 {
     margin-left: 0px!important;
   }
-  .education-details-container {
-    margin: 0 3rem;
-  }
-  .smes-image{
-    width: 100vw;
-  }
-  .laa-image {
+  .laa-image,.smes-image{
     width: 87vw;
   }
 }
@@ -100,8 +86,7 @@
     flex-direction: column;
     align-items: center;
   }
-  .smes-image,
-  .laa-image {
+  .laa-image,.smes-image{
     width: 70vw;
     margin-right: 0;
     margin-bottom: 20px;
